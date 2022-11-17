@@ -1,0 +1,45 @@
+body
+{
+   background-color: black;
+   color: white;
+}
+
+.firstHeader
+{
+   margin-left: 40%;
+   color: crimson;
+}
+
+.me
+{
+   float: left;
+   margin-top:  2%;
+   margin-left: 2%;
+}
+
+a
+{
+   color: yellow;
+}
+
+.description 
+{
+   text-align: center;
+   margin-top: 7%;
+   margin-right: 10%;
+   font-size: x-large;
+}
+
+footer
+{
+   width: 20%;
+   margin-top: 8%;
+   margin-left: 2%;
+   position: absolute;
+}
+
+.socials img
+{
+   height: 10%;
+   width: 10%;
+}
