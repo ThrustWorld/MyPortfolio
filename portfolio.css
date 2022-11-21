@@ -23,12 +23,13 @@ footer
    margin-left: 1%;
 }
 
-.firstHeader
+.firstHeader, .projects h1
 {
-   margin-left: 40%;
+   text-align: center;
+   margin-left: 15%;
 }
 
-.me
+.myPhoto
 {
    float: left;
    margin-top:  2%;
@@ -37,27 +38,28 @@ footer
 
 .description 
 {
+   display: flex;
+   flex-direction: column;
    text-align: center;
    margin-top: 7%;
    margin-right: 10%;
    font-size: x-large;
 }
 
-.projects
-{
-   text-align: left;
-}
-
 .socials
 {
-   width: 20%;
-   margin-top: 8%;
+   margin-top: 2%;   
    margin-left: 2%;
-   margin-bottom: 4%;
+}
+
+.socials h1
+{
+   width: 20%;
 }
 
 .socials img
 {
-   height: 10%;
-   width: 10%;
+   margin-right: 12px;
+   height: 2%;
+   width: 2%;
 }
