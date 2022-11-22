@@ -14,13 +14,23 @@ h1
    color: #00FF00;
 }
 
+h2
+{
+   color: #00FF00;
+   font-style: oblique;
+}
+
 footer
 {
    position: absolute;
-   right:0;
-   bottom: 0;
-   left: 0;
-   margin-left: 1%;
+   right: 0;
+   bottom: 1;
+   margin-right: 1%;
+}
+
+img
+{
+   border: 4px solid #00FF00;
 }
 
 .firstHeader, .projects h1
@@ -52,14 +62,55 @@ footer
    margin-left: 2%;
 }
 
-.socials h1
-{
-   width: 20%;
-}
-
 .socials img
 {
    margin-right: 12px;
+   height: 2%;
+   width: 2%;
+   border: 2px solid yellow;
+   border-radius: 50%;
+}
+
+.projects img
+{
+   margin: 2% 0% 2% 2%;
+   height: 12%;
+   width: 12%;
+   border-radius: 50%;
+}
+
+.rumbling_20s_remake h2
+{
+   position: relative;
+   left: 2%;
+}
+
+/* .rumbling_20s_remake
+{
+   display:  grid;
+}
+
+.rumbling_20s_remake img, .rumbling_20s_remake p
+{
+   grid-template-columns: auto auto auto;
+} */
+
+.nightmare_before_eco_congress h2
+{
+   position: relative;
+   left: 1%;
+}
+
+.dirty_city h2
+{
+   position: relative;
+   left: 5.5%;
+}
+
+.others img
+{
+   vertical-align: middle;
+   border: 2px solid yellow;
    height: 2%;
    width: 2%;
 }
