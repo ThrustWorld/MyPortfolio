@@ -12,6 +12,7 @@ a
 h1
 {
    color: #00FF00;
+   align-self: center;
 }
 
 h2
@@ -33,7 +34,7 @@ img
    border: 4px solid #00FF00;
 }
 
-.firstHeader, .projects h1
+.firstHeader, .projects h1, .others h1
 {
    text-align: center;
    margin-left: 15%;
@@ -79,38 +80,78 @@ img
    border-radius: 50%;
 }
 
-.rumbling_20s_remake h2
+.rumbling_20s_remake, .nightmare_before_eco_congress, .dirty_city
 {
-   position: relative;
-   left: 2%;
+   border: 5px inset blueviolet;
+   margin: 12px;
+   padding: 6px;
 }
 
-/* .rumbling_20s_remake
+.rumbling_20s_remake
 {
-   display:  grid;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
 }
 
-.rumbling_20s_remake img, .rumbling_20s_remake p
+.rumbling_20s_remake .image img
 {
-   grid-template-columns: auto auto auto;
-} */
-
-.nightmare_before_eco_congress h2
-{
-   position: relative;
-   left: 1%;
+   align-self: center;
+   width: 50%;
+   margin-left: 20%;
 }
 
-.dirty_city h2
+.rumbling_20s_remake .text p
 {
-   position: relative;
-   left: 5.5%;
+   text-align: center;
+}
+
+.nightmare_before_eco_congress
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.nightmare_before_eco_congress .image img
+{
+   align-self: center;
+   width: 50%;
+   margin-left: 20%;
+
+}
+
+.nightmare_before_eco_congress .text p
+{
+   text-align: center;
+}
+
+.dirty_city
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.dirty_city .image img
+{
+   align-self: center;
+   width: 50%;
+   margin-left: 20%;
+
+}
+
+.dirty_city .text p
+{
+   text-align: center;
 }
 
 .others img
 {
+   position: relative;
    vertical-align: middle;
    border: 2px solid yellow;
-   height: 2%;
-   width: 2%;
+   height: 1.5%;
+   width: 1.5%;
+   right: 2%;
 }
