@@ -7,6 +7,7 @@ body
 a
 {
    color: yellow;
+   text-decoration: none;
 }
 
 h1
@@ -34,7 +35,7 @@ img
    border: 4px solid #00FF00;
 }
 
-.firstHeader, .projects h1, .others h1
+.firstHeader h1, .projects h1, .others h1
 {
    text-align: center;
    margin-left: 15%;
@@ -72,86 +73,78 @@ img
    border-radius: 50%;
 }
 
+/* Images of the projects*/
 .projects img
 {
    margin: 2% 0% 2% 2%;
-   height: 12%;
-   width: 12%;
    border-radius: 50%;
+   width: 50%;
 }
 
+/* Links' images of the projects*/
+.projects .link img
+{
+   display: flex;
+   position: relative;
+   margin-bottom: 10%;
+   left: 40%;
+   top: 15px;
+   height: 10%;
+   width: 10%;
+   border: 2px solid yellow;
+}
+
+/* Containers of the projects*/
 .rumbling_20s_remake, .nightmare_before_eco_congress, .dirty_city
 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
    border: 5px inset blueviolet;
    margin: 12px;
    padding: 6px;
 }
 
-.rumbling_20s_remake
+/* Space divided in 4 equals parts for the project's elements */
+.rumbling_20s_remake .title, .rumbling_20s_remake .image, .rumbling_20s_remake .text, .rumbling_20s_remake .link,
+.nightmare_before_eco_congress .title, .nightmare_before_eco_congress .image, .nightmare_before_eco_congress .text, .nightmare_before_eco_congress .link,
+.dirty_city .title, .dirty_city .image, .dirty_city .text, .dirty_city .link
 {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
+   width: 25%;
 }
 
-.rumbling_20s_remake .image img
+/* Title's box*/
+.rumbling_20s_remake .title, .nightmare_before_eco_congress .title, .dirty_city .title
 {
-   align-self: center;
-   width: 50%;
-   margin-left: 20%;
+   margin-left: 2%;
 }
 
-.rumbling_20s_remake .text p
-{
-   text-align: center;
-}
-
-.nightmare_before_eco_congress
-{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-}
-
-.nightmare_before_eco_congress .image img
-{
-   align-self: center;
-   width: 50%;
-   margin-left: 20%;
-
-}
-
-.nightmare_before_eco_congress .text p
+/* Text's box*/
+.rumbling_20s_remake .text, .nightmare_before_eco_congress .text, .dirty_city .text
 {
    text-align: center;
+   width: 30%;
 }
 
-.dirty_city
+/* Link's box*/
+.rumbling_20s_remake .link, .nightmare_before_eco_congress .link, .dirty_city .link
 {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
+   width: 20%;
 }
 
-.dirty_city .image img
-{
-   align-self: center;
-   width: 50%;
-   margin-left: 20%;
-
-}
-
-.dirty_city .text p
-{
-   text-align: center;
-}
-
+/* Link to other projects*/
 .others img
 {
    position: relative;
    vertical-align: middle;
    border: 2px solid yellow;
-   height: 1.5%;
-   width: 1.5%;
-   right: 2%;
+   height: 2.5%;
+   width: 2.5%;
+   right: 20px;
+   bottom: 10px;
+}
+
+.copyright a
+{
+   color: darkgrey;
 }
