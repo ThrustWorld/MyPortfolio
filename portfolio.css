@@ -35,7 +35,7 @@ footer
    margin-right: 1%;
 }
 
-img
+img, input[type=image]
 {
    border: 4px solid #00FF00;
 }
@@ -79,7 +79,7 @@ img
 }
 
 /* Images of the projects*/
-.projects img
+.projects img, input[type=image]
 {
    margin: 2% 0% 2% 2%;
    border-radius: 50%;
@@ -130,6 +130,7 @@ img
 {
    width: 30%;
    font-size: x-large;
+   text-align: start;
 }
 
 /* Link's box*/
