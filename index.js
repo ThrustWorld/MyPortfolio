@@ -1,14 +1,14 @@
 // Rumbling 20's Remake 
 var i = 1;
-var rumbling20RemakeImgs = ["/Photos/Rumbling20'sRemake/rumbling_20_s_remake_0.png","/Photos/Rumbling20'sRemake/rumbling_20_s_remake_1.jpg",
-                            "/Photos/Rumbling20'sRemake/rumbling_20_s_remake_2.jpg","/Photos/Rumbling20'sRemake/rumbling_20_s_remake_3.jpg",
-                            "/Photos/Rumbling20'sRemake/rumbling_20_s_remake_4.jpg"];
+var rumbling20RemakeImgs = ["Photos/Rumbling20'sRemake/rumbling_20_s_remake_0.png","Photos/Rumbling20'sRemake/rumbling_20_s_remake_1.jpg",
+                            "Photos/Rumbling20'sRemake/rumbling_20_s_remake_2.jpg","Photos/Rumbling20'sRemake/rumbling_20_s_remake_3.jpg",
+                            "Photos/Rumbling20'sRemake/rumbling_20_s_remake_4.jpg"];
 // Nightmare Before Eco Congress
 var j = 1;
-var nigthmareBeforeEcoCongressImgs = ["/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_0.png","/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_1.jpg",
-                                      "/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_2.jpg","/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_3.jpg",
-                                      "/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_4.jpg","/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_5.jpg",
-                                      "/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_6.jpg","/Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_7.jpg"];
+var nigthmareBeforeEcoCongressImgs = ["Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_0.png","Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_1.jpg",
+                                      "Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_2.jpg","Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_3.jpg",
+                                      "Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_4.jpg","Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_5.jpg",
+                                      "Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_6.jpg","Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_7.jpg"];
 // Dirty City
 var k = 1;
 var dirtyCityImgs = ["Photos/DirtyCity/dirty_city_0.jpg","Photos/DirtyCity/dirty_city_1.jpg",
