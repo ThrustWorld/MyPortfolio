@@ -1,0 +1,149 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+h1
+{
+    font-style: italic;
+    color: #00FF00;
+}
+
+.Banner
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    min-height: 500px;
+}
+
+@media (min-width: 1000px )
+{
+    .Banner
+    {
+        background-size: cover;
+        min-height: 600px;
+    }
+}
+
+.Title
+{
+    display: flex;
+    justify-content: center;
+}
+.Title h1
+{
+    text-align: center;
+    font-size: x-large;
+}
+
+@media (min-width: 1000px)
+{
+    .Title h1
+    {
+        font-size: xx-large;
+    }
+}
+
+.Back img
+{
+    min-width: 10px;
+    max-width: 35px;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1000px)
+{
+    .Back img
+    {
+        min-width: 35px;
+        max-width: 70px;
+    }
+}
+
+.Description p
+{
+    text-align: center;
+    font-size: large;
+}
+
+@media (min-width: 1000px)
+{
+    .Description p
+    {
+        font-size: x-large;
+    }
+}
+
+.Video
+{
+   display: flex;
+   justify-content: center;
+   margin: 2% 0 2% 0;
+}
+.Video video
+{
+    min-width: 100px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1000px)
+{
+    .Video video, .Video iframe
+    {
+        min-width: 200px;
+        max-width: 400px;
+    }
+}
+
+.Footer
+{
+    margin: 1% 0;
+    background-color: darkblue;
+}
+
+.Socials
+{
+    display: flex;
+    justify-content: center;
+}
+.Socials img
+{
+    margin: 10px;
+    min-width: 10px;
+    width: 100%;
+    max-width: 35px;
+}
+
+@media (min-width: 1000px)
+{
+    .Socials img
+    {
+        min-width: 35px;
+        max-width: 70px;
+    }
+}
+
+.Copyright
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Copyright p
+{
+    font-size: small;
+}
+
+@media (min-width: 1000px)
+{
+    .Copyright p
+    {
+        font-size: medium;
+    }
+}

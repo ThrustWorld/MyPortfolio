@@ -1,169 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Emanuele Nepa - Game Developer</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <!-- Presentation-->
-        <div class = "firstHeader">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emanuele Nepa">
+    <title>Emanuele Nepa - Junior Game Developer</title>
+    <link rel="icon" href="Resources/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="Container">
+    <!--HEADER-->
+    <div class="Home">
+        <div class="ENG">
+            <a href="index.html"><img src="Resources/Links/eng.jpg" alt="Eng"></a>
+        </div>
+        <div class="IT">
+            <a href="index_it.html"><img src="Resources/Links/it.jpg" alt="It"></a>
+        </div>
+    </div>
+    <!--BODY-->
+    <div class="Profile">
+        <div class="Me">
+           <img src="Resources/Me.png" alt="Me">
+        </div>
+
+        <div class="About">
             <h1>Welcome, I'm Emanuele Nepa. Nice to meet you!😄</h1>
+            <p>I am a video game developer and I am based in Italy right now, working on <b style="color: orangered;">Unity</b> and <b style="color:orangered">C#</b>.</p>
+            <p>
+                Since I was a child, I have always had an interest in technology, which has spread exponentially with computers and video games.<br>
+                Due to this, I decided to embrace my little dream and pursuing the journey to understand the technical parts of a videogame.
+            </p>
+            <p>
+                I am excessively self-critical, but it helps me to achieve my goals and being able to face new challenges.<br>
+                I aspire to specialize myself in AI programming for the video games industry.
+            </p>
+            <p>
+                Here, you can find my own projects and the projects I had the chance to collaborate on. At the bottom of the page,<br>
+                you can find my links. Feel free to send me a message, I'll get back to you as quick as I can!
+            </p>
         </div>
-        
-        <hr color="#00FF00">
-        
-        <!-- Photo-->
-        <div class = "myPhoto">
-            <img src="Photos/Me.png" alt="">
-        </div>
-        
-        <!-- Short Introduction of myself-->
-        <div class = "description">
-            <p>I studied to become a game developer at <a href="https://www.aiv01.it" target="_blank">AIV</a>. </p>
-            <p>I'm currently based in Chieti where I study/work on Unity and C#.</p>
-            <p>Here you will find my personal projects and those which I took part.</p>
-            <p>I hope you are interested in that and I leave you my <a href="mailto:nepaemanuele@outlook.it" target="_blank">email</a> if you want to contact me.  </p>
-        </div>
-        
-        <!-- My networks-->
-        <div class = "socials">
-            <h1>Find me on:</h1>
-            <nav>
-                <a href="https://www.linkedin.com/in/emanuele-nepa/" target="_blank"><img src="Photos/Links/linkedin.png" alt="Linkedn"></a>
-                <a href="https://github.com/ThrustWorld" target="_blank"><img src="Photos/Links/github.png" alt="GitHub"></a>
-                <a href="https://thrustworld.itch.io" target="_blank"><img src="Photos/Links/Itch.io.png" alt="Itch.io"></a>
-                <a href="https://www.youtube.com/@thrustworld/videos" target="_blank"><img src="Photos/Links/youtube.png" alt="Youtube"></a>
-                <a href="https://www.instagram.com/thrust.world/" target="_blank"><img src="Photos/Links/instagram.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/thrustworld1" target="_blank"><img src="Photos/Links/facebook.png" alt="Facebook"></a>
-            </nav>
-        </div>
-        
-        <!-- List of my projects-->
-        <div class = "projects">
-            <h1>My Projects</h1>
+    </div>
+    <div class="Projects">
+        <div class="Section">
+            <h1>Projects</h1>
             <hr color="#00FF00">
-            <!-- Rumbling 20's Remake-->
-            <div class = "rumbling_20s_remake">
-                <div class="title">
-                    <h2>Rumbling 20's Remake</h2>
-                </div>
-                
-                <div class="image">
-                    <input id="Rumbling20'sRemake_img" type="image" name="Rumbling 20's Remake" src="Photos/Rumbling20'sRemake/rumbling_20_s_remake_0.png" onclick="nextImage(id)">
-                    <!--<img src="Photos/rumbling_20_s_remake.png" alt="Rumbling 20's Remake">-->
-                </div>
-
-                <div class="text">
-                    <p><span>Tools:</span> Unity - C#.</p>
-                    <p><span>Platforms:</span> Windows - Mac - Linux.</p>
-                    <p><span>Genres/Topics:</span> Endless runner.</p>
-                    <p><span>About:</span> In the updated version, I decided to refactor the entire old project to improve the code readability and the software performance.
-                                           Mainly, I worked on:
-                        <ul>
-                            <li>A complete menu section<br>(Play, Settings, Credits, Quit, ...).</li>
-                            <br>
-                            <li>A score system influenced by the obstacles.</li>
-                            <br>
-                            <li>A valuable audio system using different channels.</li>
-                            <br>
-                            <li>A saving system using .json files.</li>
-                            <br>
-                            <li>A pooling system to recycle obstacles and chunks of the map to not overload the memory.</li>
-                        </ul> 
-                    </p>
-                </div>
-
-                <div class="link">
-                    <nav>
-                        <a href="https://www.youtube.com/watch?v=a95BYRsemnA" target="_blank"><img src="Photos/Links/youtube.png" alt="Youtube"></a>
-                        <a href="https://thrustworld.itch.io/rumbling-20s-remake" target="_blank"><img src="Photos/Links/play.png" alt="Play"></a>
-                        <a href="https://github.com/ThrustWorld/Rumbling20-s-Remake" target="_blank"><img src="Photos/Links/github.png" alt="GitHub"></a>
-                    </nav>
-                </div>
+        </div>
+        <div class="Elements">
+            <div class="Rumbling_20_s_Remake">
+                <a href="Projects/HTML/rumbling_20_s_remake.html"><img src="Resources/Projects/rumbling_20_s_remake.png" alt="Rumbling 20's Remake"></a>
+                <h2>Rumbling 20's Remake</h2>
             </div>
-            <!-- Nightmare Before Eco Congress -->
-            <div class = "nightmare_before_eco_congress">
-                <div class="title">
-                    <h2>Nightmare Before Eco Congress</h2>
-                </div>
-                
-                <div class="image">
-                    <input id="NightmareBeforeEcoCongress_img" type="image" name="Nightmare Before Eco Congress" src="Photos/NightmareBeforeEcoCongress/nightmare_before_eco_congress_0.png" onclick="nextImage(id)">
-                </div>
-
-                <div class="text">
-                    <p><span>Tools:</span> Unity - C#.</p>
-                    <p><span>Platforms:</span> Windows - Mac - Linux.</p>
-                    <p><span>Genres/Topics:</span> Educational game - Exploration. Social and environmental issues through lobbying mechanisms.</p>
-                    <p><span>About:</span>  It's an educational game where you will embody the role of a village mayor during a congress. Your mission is the decision to install or 
-                                            not wind turbines; your actions will have consequences. I dealt with:
-                        <ul>
-                            <li>The systems and the managers of the game<br>(Audio, Options, Save, ...).</li>
-                            <br>
-                            <li>UI for the HUD, popups, menus and credits.</li>
-                            <br>
-                            <li>Gameplay programming for interactions, minigames and collisions.</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div class="link">
-                    <nav>
-                        <a href="https://www.youtube.com/watch?v=P-xON4X3tyA" target="_blank"><img src="Photos/Links/youtube.png" alt="Youtube"></a>
-                        <a href="http://www.europeanintegritygames.com/lobbying-3d-game/" target="_blank"><img src="Photos/Links/play.png" alt="Play"></a>
-                    </nav>
-                </div>
+            <div class="Nightmare_Before_Eco_Congress">
+                <a href="Projects/HTML/nightmare_before_eco_congress.html"><img src="Resources/Projects/nightmare_before_eco_congress.png" alt="Nightmare Before Eco Congress"></a>
+                <h2>Nightmare Before Eco Congress</h2>
             </div>
-            <!-- Dirty City -->
-            <div class = "dirty_city">
-                <div class="title">
-                    <h2>Dirty City</h2>
-                </div>
-                
-                <div class="image">
-                    <input id = "DirtyCity_img" type="image" name="Dirty City" src="Photos/DirtyCity/dirty_city_0.jpg" alt="Dirty City" onclick="nextImage(id)">
-                </div>
-
-                <div class="text">
-                    <p><span>Tools:</span> Unity - C#</p>
-                    <p><span>Platforms:</span> Windows - Mac - Linux</p>
-                    <p><span>Genres/Topics:</span> Educational game - Platform. Environmental pollution.</p>
-                    <p><span>About:</span> Dirty City is a simulation where you will control a businessman who has no respect for the environment surrounding him. 
-                                           I handled: 
-                        <ul>
-                            <li>Animations for the player and the interactions with the objects in the game.</li>
-                            <br>
-                            <li>Systems for player input and audio.</li>
-                            <br>
-                            <li>UI for menus and credits.</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div class="link">
-                    <nav>
-                        <a href="https://www.youtube.com/watch?v=Uy375R99w-4" target="_blank"><img src="Photos/Links/youtube.png" alt="Youtube"></a>
-                        <a href="http://www.europeanintegritygames.com/waste-treatment-2d-game/" target="_blank"><img src="Photos/Links/play.png" alt="Play"></a>
-                    </nav>
-                </div>
+            <div class="Dirty_City">
+                <a href="Projects/HTML/dirty_city.html"><img src="Resources/Projects/dirty_city.jpg" alt="Dirty City"></a>
+                <h2>Dirty City</h2>
             </div>
-            <!-- Projects not present in the front page -->
-            <div class = "others">
-                <h1>... more on <a href="https://github.com/ThrustWorld?tab=repositories" target="_blank"><img src="Photos/Links/github.png" alt="GitHub"></a>
-                    <a href="https://www.youtube.com/@thrustworld/videos" target="_blank"><img src="Photos/Links/youtube.png" alt="Youtube"></a>
-                    <a href="https://thrustworld.itch.io" target="_blank"><img src="Photos/Links/Itch.io.png" alt="Itch.io"></a>
-                </h1>
+            <div class="SDL_1945">
+                <a href="Projects/HTML/sdl_1945.html"><img src="Resources/Projects/SDL_1945.png" alt="SDL 1945"></a>
+                <h2>SDL 1945</h2>
+            </div>
+            <div class="Rumbling_20_s">
+                <a href="Projects/HTML/rumbling_20_s.html"><img src="Resources/Projects/Rumbling_20_s.png" alt="Rumbling 20's"></a>
+                <h2>Rumbling 20's</h2>
+            </div>
+            <div class="Academy_Projects">
+                <a href="Projects/HTML/academy_projects.html"><img src="Resources/Projects/academy_projects.PNG" alt="Academy Projects"></a>
+                <h2>Academy Projects</h2>
+            </div>
+        </div>
+    </div>
+    
+    <!--FOOTER-->
+    <div class="Footer">
+        <div class="Socials">
+            <div>
+                <a href="mailto:nepaemanuele@outlook.it" target="_blank"><img src="Resources/Links/mail.png" alt="Email"></a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/emanuele-nepa/" target="_blank"><img src="Resources/Links/linkedin.png" alt="Linkedn"></a>
+            </div>
+            <div>
+                <a href="https://github.com/ThrustWorld" target="_blank"><img src="Resources/Links/github.png" alt="GitHub"></a>
+            </div>
+            <div>
+                <a href="https://stackoverflow.com/users/12071018/thrustworld" target="_blank"><img src="Resources/Links/stackoverflow.png" alt="StackOverFlow"></a>
+            </div>
+            <div>
+                <a href="https://thrustworld.itch.io" target="_blank"><img src="Resources/Links/Itch.io.png" alt="Itch.io"></a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/@thrustworld/videos" target="_blank"><img src="Resources/Links/youtube.png" alt="Youtube"></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/thrust.world/" target="_blank"><img src="Resources/Links/instagram.png" alt="Instagram"></a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/thrustworld1" target="_blank"><img src="Resources/Links/facebook.png" alt="Facebook"></a>
             </div>
         </div>
         
-        <!-- Copyright in the bottom left page-->
-        <footer class = "copyright">
-            <p>© 2022 <a href="https://thrustworld.github.io/MyPortfolio/"><b>Emanuele Nepa.</b></a> All Rights Reserved.</p>
-        </footer>
-        
-        <script src = "index.js"></script>
-    </body>
+    </div>
+    <!--COPYRIGHT-->
+    <div class="Copyright">
+        <p><b>© 2023 Emanuele Nepa. All Rights Reserved.</b></p>
+    </div>
+</div>
+</body>
 </html>

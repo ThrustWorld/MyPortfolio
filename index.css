@@ -1,103 +1,139 @@
 body
 {
-   background-color: black;
-   color: white;
-}
-
-span
-{
-   color: orangered;
-}
-
-a
-{
-   color: yellow;
-   text-decoration: none;
+    background-color: black;
+    color: white;
 }
 
 h1
 {
-   color: #00FF00;
-   align-self: center;
+    color:#00ff00;
+    font-size: larger;
 }
 
 h2
 {
-   color: #00FF00;
-   font-style: oblique;
+    font-style: italic;
+    font-size: large;
 }
 
-footer
+@media (min-width:760px)
 {
-   position: absolute;
-   right: 0;
-   bottom: 1;
-   margin-right: 1%;
-   font-size: 1.2vw;
+    h1
+    {
+        font-size: x-large;
+    }
+    h2
+    {
+        font-size: larger;
+    }
 }
 
-img, input[type=image]
+img
 {
-   border: 0.2vw solid #00FF00;
+    min-width: 15px;
+    max-width: 25px;
+    border: 0.2vw solid #00ff00;
+    border-radius: 50%;
+    width: 100%;
 }
 
-.firstHeader h1, .projects h1, .others h1
+.Home
 {
-   text-align: center;
-   font-size: 2.2vw;
-   margin-left: 15%;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.myPhoto img
+@media (min-width:760px)
 {
-   width: 20vw;
-   float: left;
-   margin-top:  6%;
-   margin-left: 2%;
+    .ENG img, .IT img
+    {
+        margin: 5px;
+        min-width: 30px;
+        max-width: 45px;
+    }
+}
+@media (min-width:1300px)
+{
+    .ENG img, .IT img
+    {
+        min-width: 45px;
+        max-width: 60px;
+    }
 }
 
-.description 
+@media (min-width:1300px)
 {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   margin-top: 7%;
-   margin-right: 2%;
-   font-size: 1.5vw;
+    .Profile
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
-.socials
+.Me
 {
-   margin-left: 2%;
+    display: flex;
+    justify-content: center;
+}
+.Me img
+{
+    min-width: 45px;
+    max-width: 75px;
+    width: 100%;
+}
+@media (min-width:760px)
+{
+    .Me img
+    {
+        min-width: 45px;
+        max-width: 105px;
+    }
+}
+@media (min-width:1300px)
+{
+    .Me
+    {
+        display: block;
+        align-self: center;
+    }
+    .Me img
+    {
+        min-width: 200px;
+        max-width: 300px;
+    }
 }
 
-.socials h1
+.About
 {
-   margin-top: 5vw;   
-   font-size: 2.2vw;
+    text-align: center;
+}
+.About p
+{
+    font-size: larger;
+}
+@media (min-width:760px)
+{
+    .About p
+    {
+        font-size: x-large;
+    }
 }
 
-.socials img
+.Projects
 {
-   margin-right: 1px;
-   height: 2.2vw;
-   width: 2.2vw;
-   border: 0.2vw solid yellow;
-   border-radius: 50%;
+    text-align: center;
 }
-
-/* Images of the projects*/
-.projects img, input[type=image]
+.Elements
 {
-   margin: 2% 0% 2% 2%;
-   border-radius: 50%;
-   width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
-
-/* Input images animation*/
-.projects input[type=image]
+.Elements img
 {
-   animation: shake 2.5s infinite ;
+    min-width: 45px;
+    max-width: 75px;
+    width: 100%;
+    animation: shake 2.5s infinite;
 }
 @keyframes shake
 {
@@ -127,71 +163,74 @@ img, input[type=image]
       transform: rotateZ(0deg) translateX(0px);
    }
 }
-
-/* Links' images of the projects*/
-.projects .link img
+@media (min-width:760px)
 {
-   display: flex;
-   position: relative;
-   margin-bottom: 40%;
-   left: 40%;
-   top: 15px;
-   height: 30%;
-   width: 30%;
-   border: 0.2vw solid yellow;
+    .Elements
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .Elements img
+    {
+        min-width: 75px;
+        max-width: 120px;
+    }
+}
+@media (min-width:1300px)
+{
+    .Elements img
+    {
+        min-width: 200px;
+        max-width: 300px;
+    }
 }
 
-/* Containers of the projects*/
-.rumbling_20s_remake, .nightmare_before_eco_congress, .dirty_city
+.Footer
 {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   text-align: center;
-   border: 0.4vw inset blueviolet;
-   margin: 12px;
-   padding: 6px;
+    margin: 1% 0;
+    background-color: darkblue;
 }
 
-/* Title's box*/
-.rumbling_20s_remake .title, .nightmare_before_eco_congress .title, .dirty_city .title
+.Socials
 {
-   width: 20%;
-   font-size: 1vw;
+    display: flex;
+    justify-content: center;
+}
+.Socials img
+{
+    margin: 5px;
+}
+@media (min-width:760px)
+{
+    .Socials img
+    {
+        margin: 15px;
+        min-width: 30px;
+        max-width: 45px;
+    }
+}
+@media (min-width:1300px)
+{
+    .Socials img
+    {
+        min-width: 45px;
+        max-width: 60px;
+        margin: 30px;
+    }
 }
 
-.rumbling_20s_remake .image, .nightmare_before_eco_congress .image, .dirty_city .image
+.Copyright
 {
-   width: 40%;
+    display: flex;
+    justify-content: center;
 }
-
-/* Text's box*/
-.rumbling_20s_remake .text, .nightmare_before_eco_congress .text, .dirty_city .text
+.Copyright p
 {
-   width: 60%;
-   font-size: 1.5vw;
-   text-align: start;
+    font-size: small;
 }
-
-/* Link's box*/
-.rumbling_20s_remake .link, .nightmare_before_eco_congress .link, .dirty_city .link
+@media (min-width:760px)
 {
-   width: 10vw;
-}
-
-/* Link to other projects*/
-.others img
-{
-   position: relative;
-   vertical-align: middle;
-   border: 0.2vw solid yellow;
-   height: 2.2vw;
-   width: 2.2vw;
-   right: 1vw;
-   bottom: 0.5vw;
-}
-
-.copyright a
-{
-   color: darkgrey;
+    .Copyright p
+    {
+        font-size: medium;
+    }
 }
